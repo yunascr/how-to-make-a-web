@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color:  rgb(92, 90, 90) ;
+    color: white;
+    padding: 20px 0;
+}
+header nav ul li a{
+    color: aliceblue;
+    text-decoration: none;
+}
+header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header nav ul li{
+    display: inline;
+    margin-left: 20px;
+}
+.hero{
+    text-align: center;
+    background: url('https://via.placeholder.com/1920x500') no-repeat center center/cover;
+    padding: 100px 0;
+}
+.hero h2{
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+body{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.6;
+}
+.hero p{
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
+.hero .btn{
+ background-color:cornflowerblue;
+ padding: 10px 20px;
+ color: white;
+ text-decoration: none;
+ border-radius: 10px;
+}
